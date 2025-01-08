@@ -1,0 +1,213 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="D:\MATLAB\R2018a\bin\mota\mota.prj" location="D:\MATLAB\R2018a\bin\mota" name="mota" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>mota</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\mota\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\mota\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\mota\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\mota\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\mota</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+      <param.help.text />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\mota.m</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\artifact_1.jpg</file>
+      <file>${PROJECT_ROOT}\artifact_2.jpg</file>
+      <file>${PROJECT_ROOT}\artifact_3.jpg</file>
+      <file>${PROJECT_ROOT}\artifact_4.jpg</file>
+      <file>${PROJECT_ROOT}\artifact_5.jpg</file>
+      <file>${PROJECT_ROOT}\artifact_6.jpg</file>
+      <file>${PROJECT_ROOT}\artifact_book.jpg</file>
+      <file>${PROJECT_ROOT}\artifact_pick.jpg</file>
+      <file>${PROJECT_ROOT}\artifact_star.jpg</file>
+      <file>${PROJECT_ROOT}\background_g.jpg</file>
+      <file>${PROJECT_ROOT}\background_star.jpg</file>
+      <file>${PROJECT_ROOT}\background_stone.jpg</file>
+      <file>${PROJECT_ROOT}\board_background.jpg</file>
+      <file>${PROJECT_ROOT}\board_key_b.jpg</file>
+      <file>${PROJECT_ROOT}\board_key_r.jpg</file>
+      <file>${PROJECT_ROOT}\board_key_y.jpg</file>
+      <file>${PROJECT_ROOT}\board_person.jpg</file>
+      <file>${PROJECT_ROOT}\boss_b_1.jpg</file>
+      <file>${PROJECT_ROOT}\boss_b_2.jpg</file>
+      <file>${PROJECT_ROOT}\boss_b_3.jpg</file>
+      <file>${PROJECT_ROOT}\boss_b_4.jpg</file>
+      <file>${PROJECT_ROOT}\boss_b_5.jpg</file>
+      <file>${PROJECT_ROOT}\boss_b_6.jpg</file>
+      <file>${PROJECT_ROOT}\boss_b_7.jpg</file>
+      <file>${PROJECT_ROOT}\boss_b_8.jpg</file>
+      <file>${PROJECT_ROOT}\boss_b_9.jpg</file>
+      <file>${PROJECT_ROOT}\bottle_b.jpg</file>
+      <file>${PROJECT_ROOT}\bottle_b_big.jpg</file>
+      <file>${PROJECT_ROOT}\bottle_r.jpg</file>
+      <file>${PROJECT_ROOT}\bottle_y.jpg</file>
+      <file>${PROJECT_ROOT}\bottle_y_big.jpg</file>
+      <file>${PROJECT_ROOT}\coin.jpg</file>
+      <file>${PROJECT_ROOT}\door_b.jpg</file>
+      <file>${PROJECT_ROOT}\door_i.jpg</file>
+      <file>${PROJECT_ROOT}\door_r.jpg</file>
+      <file>${PROJECT_ROOT}\door_t.jpg</file>
+      <file>${PROJECT_ROOT}\door_y.jpg</file>
+      <file>${PROJECT_ROOT}\gem_b.jpg</file>
+      <file>${PROJECT_ROOT}\gem_r.jpg</file>
+      <file>${PROJECT_ROOT}\gem_y.jpg</file>
+      <file>${PROJECT_ROOT}\gift.jpg</file>
+      <file>${PROJECT_ROOT}\key_b.jpg</file>
+      <file>${PROJECT_ROOT}\key_r.jpg</file>
+      <file>${PROJECT_ROOT}\key_y.jpg</file>
+      <file>${PROJECT_ROOT}\monster_bat_b.jpg</file>
+      <file>${PROJECT_ROOT}\monster_bat_r.jpg</file>
+      <file>${PROJECT_ROOT}\monster_bat_s.jpg</file>
+      <file>${PROJECT_ROOT}\monster_skeleton.jpg</file>
+      <file>${PROJECT_ROOT}\monster_slime_b.jpg</file>
+      <file>${PROJECT_ROOT}\monster_slime_g.jpg</file>
+      <file>${PROJECT_ROOT}\monster_slime_r.jpg</file>
+      <file>${PROJECT_ROOT}\npc_1.jpg</file>
+      <file>${PROJECT_ROOT}\npc_2.jpg</file>
+      <file>${PROJECT_ROOT}\npc_3.jpg</file>
+      <file>${PROJECT_ROOT}\npc_4.jpg</file>
+      <file>${PROJECT_ROOT}\npc_5.jpg</file>
+      <file>${PROJECT_ROOT}\person_down.jpg</file>
+      <file>${PROJECT_ROOT}\person_left.jpg</file>
+      <file>${PROJECT_ROOT}\person_right.jpg</file>
+      <file>${PROJECT_ROOT}\person_up.jpg</file>
+      <file>${PROJECT_ROOT}\stairs_down.jpg</file>
+      <file>${PROJECT_ROOT}\stairs_up.jpg</file>
+      <file>${PROJECT_ROOT}\star.jpg</file>
+      <file>${PROJECT_ROOT}\wall_ice.jpg</file>
+      <file>${PROJECT_ROOT}\wall_mud.jpg</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\mota\for_testing" name="splash.png" optional="false">D:\MATLAB\R2018a\bin\mota\mota\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\mota\for_testing" name="mota.exe" optional="false">D:\MATLAB\R2018a\bin\mota\mota\for_testing\mota.exe</file>
+      <file location="${PROJECT_ROOT}\mota\for_testing" name="readme.txt" optional="true">D:\MATLAB\R2018a\bin\mota\mota\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\MATLAB\R2018a</root>
+      <toolboxes>
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabcoder" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="polyspacebugfinder" />
+      </toolboxes>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <polyspacebugfinder>
+          <enabled>true</enabled>
+        </polyspacebugfinder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>6.1</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
